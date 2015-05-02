@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% for section in site.section %}
+	<section class="section" id="{{ section.hashlink }}">
+	        
+	  <h2><span class="section-title">{{ section.title }}</span> <strong><a href="#">Back to top<span class="arrow"></span></a></strong></h2>
+	  
+	  <article>
+	    {{ section.content }}
+	  </article>
+	        
+	</section>
+{% endfor %}

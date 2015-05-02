@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style type="text/css">
+  
+{% include style.css %}
+
+</style>
+
+<body>
+
+  <main><!-- Begin main document -->
+
+    <header class="clearfix"><!-- Begin header -->
+
+      <hgroup class="masthead">
+        
+        <h1>{{ site.title }}</h1>
+      
+      </hgroup>
+
+      <hr />
+
+      <a href="#mobilemenu"><aside class="navilinks">&nbsp;</aside></a><!-- Hamburger symbol for mobile navigation -->
+
+      <nav class="main-navi clearfix"><!-- Begin main navigation -->
+
+        <ul>
+          {% for section in site.section %}
+            {% if section.title %}
+              <li><a title="Go to {{ section.title }} section" href="#{{ section.hashlink }}">{{ section.title }}</a></li>
+            {% endif %}{% endfor %}
+         </ul>
+
+      </nav><!-- End main navigation -->
+
+      <hr />
+
+    </header><!-- End header -->
