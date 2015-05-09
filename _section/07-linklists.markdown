@@ -25,6 +25,7 @@ A lists of interesting links on the planet.
     <li><a href="http://forms.brace.io/">Brace forms</a></li>
     <li><a href="http://supportdetails.com/">Support Details</a></li>
     <li><a href="https://transfer.sh/">Transfer.sh</a></li>
+    <li><a href="https://www.canva.com/create/book-covers/">Canva's Book Cover</a></li>
   </ul>
 
  </article>
