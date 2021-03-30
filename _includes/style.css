@@ -309,6 +309,7 @@ h1
 
 header p
 {
+  font-size:0.9em;
   text-transform:uppercase;
   letter-spacing:1px;
   color:#ccc;
@@ -316,6 +317,7 @@ header p
 
 header p + p
 {
+  font-size:1em;
   text-transform:none;
   color:#999;
 }
