@@ -7,7 +7,14 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+#media assets
+include:
+  - "_img"
+
 #Collections
 collections:
  section:
   output: false
+  order:
+      - faq.md
+
