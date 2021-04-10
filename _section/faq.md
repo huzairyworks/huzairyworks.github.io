@@ -3,7 +3,7 @@ title:  "Frequently Asked Questions / FAQ"
 hashlink: faq
 ---
 
-Soalan-soalan yang kerap ditanya oleh pelanggan.
+Soalan-soalan yang sering ditanya oleh pembeli.
 
 * ### Boleh beli secara COD(Cash On Delivery)?
 Buat masa sekarang, Huzairy Works hanya beroperasi secara atas talian sahaja. Urusan jual beli dijalankan di Shopee Huzairy Works.
